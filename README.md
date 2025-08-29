@@ -12,7 +12,7 @@ ___________________________________________________________
 1. GH-900: GitHub Foundations
 2. AZ-900:Azure Fundamentals
 3. AZ-104:Azure Administrator Associate
-4. GH-200:
+4. GH-200: GitHub Actions
    
 Terraform Certifications 
 ___________________________________________________________
