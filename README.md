@@ -2,7 +2,8 @@ Hi there 👋
 
 ☁️This Repo contains all  my notes are present.
 
-🔭 I’m currently working as a Network Engineer🛜. In this repo, I try to give my best and easily understandable study notes📝 to get a cloud job☁️.
+🔭 I’m currently working as a Network Engineer🛜. 
+📃In this repo, I try to give my best and easily understandable study notes📝 to get a cloud job☁️.
 I am still learn, so maybe it's taken time 😊.
 The notes should be in Tanglish and English📝.
 
