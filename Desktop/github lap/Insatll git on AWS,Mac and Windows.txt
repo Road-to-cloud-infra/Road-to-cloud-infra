@@ -1,0 +1,33 @@
+1)install git on AWS EC2:
+
+>>sudo yum install git -y
+
+check version:
+
+>>git -v
+
+set username and email:
+
+>>git config --global user.name <"name">
+>>git config --global user.email<"email">
+
+2)install git on mac:
+
+>>need to instal Homebrew
+>>once done then in CLI
+
+>>Brew intall git 
+
+3)install git o windows:
+
+directly downlode like other software then check the git version for confirmation 
+
+comman linux command:
+
+>>ls --- command for list the folder 
+
+clear ---- command clear the CLI
+
+cd-- change directory
+
+mkdir-- create new file 
