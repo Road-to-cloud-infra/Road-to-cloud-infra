@@ -1,0 +1,37 @@
+Forking:
+creates a copy of a repository under your own GitHub account, usually for contributing to or modifying it independently. 
+
+Cloning:
+
+on the other hand, downloads a repository to your local machine so you can work on it locally
+
+Git:
+
+Git is indeed a version control system to track changes and manage code history locally. 
+
+GitHub:
+
+GitHub, on the other hand, is a platform for hosting Git repositories remotely, enabling collaboration and sharing.
+
+git init:
+
+To initialize a new Git repository locally, you’d first run git init inside your project directory to make it a Git repository. 
+
+git add:
+
+Then you might create files (touch filename), add them to staging with git add, and commit the changes using git commit.
+
+git status:
+
+git status shows the current state of the repository: what's staged, unstaged, and untracked. 
+It’s super helpful for catching any files you might have missed before committing. 
+
+git log:
+
+Using git log provides a detailed history of commits locally, including commit hashes, authors, and timestamps. 
+And checking commit history on GitHub through the GUI is another viable option if it’s already pushed.
+ 
+.gitignore:
+
+The .gitignore file is actually used to specify files or directories that Git should ignore and not track in version control. 
+For example, in repo, you might use it to exclude temporary files, logs, or sensitive data.

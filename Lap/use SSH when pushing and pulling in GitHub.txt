@@ -1,0 +1,86 @@
+Generate an SSH key.
+
+1)Add it to your GitHub account.
+
+2)Test the connection.
+
+3)Switch your repo to SSH.
+
+4)Push and pull with SSH.
+
+Step 1: Generate an SSH key
+
+Linux & macOS (Terminal):
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+Windows (PowerShell or Git Bash):
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+Press Enter to accept the default location (~/.ssh/id_ed25519).
+
+Optionally add a passphrase, or press Enter for none.
+
+👉 This creates two files:
+
+id_ed25519 (private key, keep safe!)
+
+id_ed25519.pub (public key, share with GitHub).
+
+Step 2: Start SSH agent & add the key
+
+Linux/macOS:
+
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
+Windows (PowerShell with Git installed):
+
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_ed25519
+
+Step 3: Copy the public key
+
+Linux/macOS:
+
+cat ~/.ssh/id_ed25519.pub
+
+Windows (PowerShell):
+
+type ~\.ssh\id_ed25519.pub
+
+Copy the whole line starting with ssh-ed25519.
+
+Step 4: Add the key to GitHub
+
+Go to GitHub → Settings → SSH and GPG keys
+
+Click New SSH key → Paste your key → Save.
+
+Step 5: Test the connection
+
+Run:
+
+ssh -T git@github.com
+
+If successful, you’ll see:
+
+Hi username! You've successfully authenticated...
+
+Step 6: Use SSH instead of HTTPS
+
+If you already cloned with HTTPS, switch to SSH:
+
+git remote set-url origin git@github.com:USERNAME/REPO.git
+
+If you want to freshly clone with SSH:
+
+git clone git@github.com:USERNAME/REPO.git
+
+Step 7: Push and Pull with SSH
+
+Once your repo is set to SSH:
+
+git pull origin main
+git push origin main

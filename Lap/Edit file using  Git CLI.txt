@@ -1,0 +1,30 @@
+🔹 Step 1. Open your file
+vi myfile.txt
+
+🔹 Step 2. Switch to insert mode (so you can type & move down lines)
+
+Press i → puts you in insert mode.
+
+Now you can type, press Enter to go to the next line, use arrow keys to move around.
+
+(If arrow keys look weird, don’t worry — Enter will still drop you to a new line.)
+
+🔹 Step 3. Save and Exit
+
+Press Esc (to leave insert mode).
+
+Then type:
+
+:wq → write (save) and quit
+
+:q! → quit without saving (if you messed up)
+
+✅ Quick survival guide for Git + vi:
+
+i → insert (start editing)
+
+Esc → leave editing
+
+:wq → save + quit
+
+:q! → quit without saving

@@ -1,0 +1,40 @@
+Linux and git commands:
+
+Linux commands:
+
+cd -->change directory or enter the directory 
+
+cd .. --> exit/come out from the current directory 
+ex:/home/user/documents, using cd .. will move you to /home/user.
+cd -: Navigates to the previously visited directory / go to previous directory automatically 
+
+ls--> list directory
+
+ls -a-->Includes hidden files (those starting with a dot) in the listing.
+
+ls -l-->Displays detailed information about files and directories
+
+ls -lh-->it displays file sizes in human-readable units (e.g., KB, MB, GB).
+
+mkdir --> create new directories
+
+cd "file or folder name"--> sometimes we can enter the folder using this command 
+
+>>rm -rf <directory name> --> remove a directory(folder)
+ (-r or --recursive)(-f or --force) 
+ 
+touch <filename>-->creates a new, empty file with that name in the current directory.
+
+sudo rm -r <file name>-->remove the file
+ 
+pwd-->
+
+cat-->
+
+:wq → write (save) and quit
+
+:q! → quit without saving (if you messed up)
+
+vi-->Git is to let you write or edit commit/rebase messages inside the terminal.
+
+man git

@@ -1,0 +1,50 @@
+1. Windows
+
+Easiest: download from the official site → git-scm.com
+
+Run the installer (Git for Windows) → it includes Git Bash (the terminal you were using earlier).
+
+After install, check with:
+
+git --version
+
+2. macOS
+
+Two options:
+a. Using Homebrew (recommended if you have it):
+
+brew install git
+
+
+b. Without Homebrew:
+
+Download installer from git-scm.com
+
+Then confirm:
+
+git --version
+
+3. Linux (varies a bit by distribution):
+
+Debian/Ubuntu:
+
+sudo apt update
+sudo apt install git
+
+
+Fedora:
+
+sudo dnf install git
+
+
+Arch Linux:
+
+sudo pacman -S git
+
+
+Check with:
+
+git --version
+
+
+✨ Quick tip: Git often comes pre-installed on Mac and many Linux systems, so you may just need to type git --version to check before installing.

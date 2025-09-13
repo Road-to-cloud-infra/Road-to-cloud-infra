@@ -1,0 +1,56 @@
+🔹 Step 1: Clone (or set remote) with HTTPS
+
+When you copy a repo URL from GitHub, choose the HTTPS option.
+
+Example (cloning):
+
+git clone https://github.com/USERNAME/REPO.git
+
+If you already have a repo but it’s not set:
+
+git remote set-url origin https://github.com/USERNAME/REPO.git
+
+🔹 Step 2: Authentication
+
+When you push or pull, GitHub will ask you for credentials.
+
+Old way (username + password) → ❌ No longer supported.
+
+Now you must use a Personal Access Token (PAT) instead of your GitHub password.
+
+🔹 Step 3: Generate a Personal Access Token (PAT)
+
+Go to GitHub → Settings → Developer settings → Personal access tokens
+
+Click Generate new token (classic).
+
+Choose scopes → for basic Git use:
+
+repo (full control of private/public repos)
+
+optionally workflow if you need Actions.
+
+Copy the token (you’ll only see it once!).
+
+🔹 Step 4: Push/Pull with HTTPS
+
+Now when you run:
+
+git pull origin main
+git push origin main
+
+Git will ask for:
+
+Username → your GitHub username.
+
+Password → paste your PAT.
+
+🔹 Step 5: Store Credentials (so you don’t type token each time)
+Linux/macOS:
+git config --global credential.helper store
+
+(or use cache for temporary storage).
+
+Windows:
+
+Git for Windows uses the Windows Credential Manager automatically.
